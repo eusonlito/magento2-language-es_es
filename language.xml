@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento 2 Spanish (Spain) language pack
+ *
+ * @category   Language
+ * @package    es_ES
+ * @license    http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @author     Lito (https://about.me/lito)
+ */
+-->
+<language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/Language/package.xsd">
+    <code>es_ES</code>
+    <vendor>eusonlito</vendor>
+    <package>es_es</package>
+    <sort_order>10</sort_order>
+</language>
