@@ -17,3 +17,5 @@ bin/magento i18n:pack --mode=replace -d vendor/eusonlito/magento2-language-es_es
 ```
 bin/magento setup:static-content:deploy es_ES
 ```
+
+### Recuerda limpiar la caché después de instalar el paquete de idioma
