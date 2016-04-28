@@ -9,13 +9,13 @@ composer require eusonlito/magento2-language-es_es
 ### Lo instalamos a través de la consola de Magento
 
 ```
-bin/magento i18n:pack --mode=replace -d vendor/eusonlito/magento2-language-es_es/es_ES.csv . es_ES
+php bin/magento i18n:pack --mode=replace -d vendor/eusonlito/magento2-language-es_es/es_ES.csv . es_ES
 ```
 
 ### Actualizamos el contenido estático
 
 ```
-bin/magento setup:static-content:deploy es_ES
+php bin/magento setup:static-content:deploy es_ES
 ```
 
 ### Recuerda limpiar la caché después de instalar el paquete de idioma
