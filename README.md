@@ -11,7 +11,7 @@ Se han recopilado las traducciones existentes en https://crowdin.com/project/mag
 * **es_ES-not-translated.csv** - Contiene sólo los strings no traducidos
 * **es_ES-translated-and-google.csv** - Contiene los strings traducidos y una traducción desde Google del resto
 
-## Instalación
+## Instalación Automática
 
 ### Lo añadimos al composer del proyecto:
 
@@ -29,6 +29,28 @@ php bin/magento i18n:pack --mode=replace -d vendor/eusonlito/magento2-language-e
 
 ```
 php bin/magento setup:static-content:deploy es_ES
+```
+
+### Recuerda limpiar la caché después de instalar el paquete de idioma
+
+## Instalación Manual
+
+### Lo añadimos al composer del proyecto:
+
+```
+composer require eusonlito/magento2-language-es_es
+```
+
+### Creamos una carpeta donde colocaremos el fichero de traducciones
+
+```
+install -d app/vendor/eusonlito/magento2-language-es_es/i18n
+```
+
+### Copiamos el fichero de idioma en ese directorio
+
+```
+cp vendor/vendor/eusonlito/magento2-language-es_es/es_ES.csv app/vendor/eusonlito/magento2-language-es_es/i18n/
 ```
 
 ### Recuerda limpiar la caché después de instalar el paquete de idioma
