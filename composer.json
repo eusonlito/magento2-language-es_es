@@ -2,7 +2,7 @@
     "name": "eusonlito/magento2-language-es_es",
     "description": "Magento 2 Spanish (Spain) language package - Paquete de idioma Español (España) para Magento 2",
     "type": "magento2-language",
-    "version": "0.0.5",
+    "version": "0.0.8",
     "license": [
         "MIT"
     ],
@@ -15,7 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "magento/framework": "100.*"
+        "magento/framework": ">=100"
     },
     "autoload": {
         "files": [
