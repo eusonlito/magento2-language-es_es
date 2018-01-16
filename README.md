@@ -17,7 +17,7 @@ Si deseas participar, por favor regístrate en Crowdin y ayuda con las traduccio
 ### Lo añadimos al composer del proyecto:
 
 ```
-composer require eusonlito/magento2-language-es_es
+composer require eusonlito/magento2-language-es_es dev-master
 ```
 
 ### Lo instalamos a través de la consola de Magento
