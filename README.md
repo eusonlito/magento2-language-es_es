@@ -4,12 +4,13 @@
 
 Se han recopilado las traducciones existentes en https://crowdin.com/project/magento-2/es-ES#
 
+Si deseas participar, por favor regístrate en Crowdin y ayuda con las traducciones desde su panel.
+
 ## Ficheros
 
-* **es_ES.csv** - Contiene todos los strings, tanto traducidos como no traducidos
-* **es_ES-translated.csv** - Contiene sólo los strings traducidos
-* **es_ES-not-translated.csv** - Contiene sólo los strings no traducidos
-* **es_ES-translated-and-google.csv** - Contiene los strings traducidos y una traducción desde Google del resto
+* **es_ES.csv** - Contiene las traducciones realizadas en Crowdin
+* **es_ES-all.csv** - Contiene todas las cadenas de texto existentes en Crowdin, traducidas o no
+* **es_ES-translated-and-translator.csv** - Contiene las traducciones realizadas en Crowdin y una traducción mediante APIs de resto
 
 ## Instalación Automática
 
