@@ -1,2 +1,5 @@
-magento
-tmp
+es_ES.csv
+
+/magento
+/tools
+/es_ES/custom.csv
