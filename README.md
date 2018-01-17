@@ -51,7 +51,7 @@ install -d app/vendor/eusonlito/magento2-language-es_es/i18n
 ### Copiamos el fichero de idioma en ese directorio
 
 ```
-cp vendor/eusonlito/magento2-language-es_es/es_ES/crowdin.csv app/vendor/eusonlito/magento2-language-es_es/i18n/
+cp vendor/eusonlito/magento2-language-es_es/es_ES/crowdin.csv app/vendor/eusonlito/magento2-language-es_es/i18n/es_ES.csv
 ```
 
 ### Recuerda limpiar la caché después de instalar el paquete de idioma
